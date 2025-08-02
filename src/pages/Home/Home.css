@@ -62,7 +62,10 @@
 
 .more-cards{
     padding: 6%;
-    
+}
+
+.title-cards-fix{
+    padding-right: 5%;
 }
 
 /*Responsive section*/

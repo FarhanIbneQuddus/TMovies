@@ -88,8 +88,11 @@
         display: flex;
     }
 
-    .navbar img{
-        height: 25px;
+    .navbar .img1{
+        padding-top: 2px;
+        padding-left: 15px;
+        width: auto;
+        transform: scale(4);
     }
 }
 
