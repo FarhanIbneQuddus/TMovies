@@ -25,8 +25,8 @@ const Navbar = () => {
   return (
     <div ref={navRef} className='navbar'>
       <div className="navbar-left">
+        <img src={logo} alt="" />
         <ul>
-          <li><img src={logo} alt="" /></li>
           <li>Home</li>
           <li>TV Shows</li>
           <li>Movies</li>

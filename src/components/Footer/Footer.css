@@ -15,6 +15,9 @@
     width: 30px;
     cursor: pointer;
 }
+.footer .footer-icons{
+    text-align: center;
+}
 
 .footer ul{
     display: grid;
@@ -28,3 +31,18 @@
     font-size: 14px;
     text-align: center;
 }
+
+/*Responsive section*/
+
+@media(max-width: 600px) {
+    .footer-icons img{
+        width: 25px;
+    }
+    .footer ul{
+        grid-template-columns:  auto auto;
+        gap: 8px;
+        font-size: 14px;
+    }
+}
+
+/*TMDV DATABASE AND FIREBASE AUTHENTICATION*/
