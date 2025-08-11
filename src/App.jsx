@@ -27,6 +27,7 @@ const App = () => {
   return (
     <div>
       <Routes>
+      <ToastContainer theme='dark' />
         <Route path='/' element={<Home/>} />
         <Route path='/login' element={<Login/>} />
         <Route path='/player/:id' element={<Player/>}/> 
